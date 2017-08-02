@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+header2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position:absolute;
+    right:50px;
+    top:52px;
+}
+
+header2 li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+header2 li a:hover {
+    background-color: #555;
+    color: green;
+}
