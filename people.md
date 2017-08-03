@@ -12,3 +12,5 @@ layout: default
 | [timholy](https://github.com/timholy) | EPhys / Behaviour | 
 | [codles](https://github.com/codles) |  |
 | [galenlynch](https://github.com/galenlynch) |  |
+| [jmxpearson](https://github.com/jmxpearson) | Computational/ML |
+| [seung-lab](https://github.com/seung-lab) |  |
