@@ -24,4 +24,5 @@ layout: default
 | [NEAT.jl](https://github.com/Andy-P/NEAT.jl) | Julia implemention of NEAT (NeuroEvolution of Augmenting Topologies) algorithm | WIP |
 | [BrainWave.jl](https://github.com/sam81/BrainWave.jl) | BrainWave is a module containing functions to process electroencephalographic (EEG) recordings with the Julia programming language. | Failing |
 | [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl) | DCE MRI analysis in Julia | Failing |
-
+| [EMIRT.jl](https://github.com/seung-lab/EMIRT.jl) | Electronic Microscopy Image Reconstruction Toolbox using julia language | [![Build Status](https://travis-ci.org/seung-lab/EMIRT.jl.svg?branch=master)](https://travis-ci.org/seung-lab/EMIRT.jl) |
+| [ReconstructionEvaluations.jl](https://github.com/seung-lab/ReconstructionEvaluations.jl) | Assess reconstruction quality (e.g. no. of broken spines, axon splits, NRI, etc) |  |
