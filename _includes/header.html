@@ -1,10 +1,15 @@
-<header2>
-            <h1 class="logo"><a href="{{ '/' | prepend:site.baseurl }}"><img src="assets/julianeurologo.png"></a></h1>
-        <ul class="navbar">
-            <li><a href="{{ '/packages' | prepend: site.baseurl }}">Packages</a></li>
-            <li><a href="{{ '/papers' | prepend: site.baseurl }}">Papers</a></li>
-            <li><a href="{{ '/people' | prepend: site.baseurl }}">People</a></li>
-        </ul>
-        <h1>{{ site.title }}</h1>
-        <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
-</header2>
+<header>
+
+    <a href="{{ '/' | prepend:site.baseurl }}">
+        <img src="assets/julianeurologo.png">
+    </a>
+
+    <ul class="navbar">
+        <li><a href="{{ '/packages' | prepend: site.baseurl }}">Packages</a></li>
+        <li><a href="{{ '/papers' | prepend: site.baseurl }}">Papers</a></li>
+        <li><a href="{{ '/people' | prepend: site.baseurl }}">People</a></li>
+    </ul>
+
+    <h1>{{ site.title }}</h1>
+    <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
+</header>
