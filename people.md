@@ -14,3 +14,4 @@ layout: default
 | [galenlynch](https://github.com/galenlynch) |  |
 | [jmxpearson](https://github.com/jmxpearson) | Computational/ML |
 | [seung-lab](https://github.com/seung-lab) |  |
+| [vitskov](https://github.com/vitskov) | Computational |
