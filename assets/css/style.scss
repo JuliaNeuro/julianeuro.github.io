@@ -117,24 +117,31 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 1em;
-    width: 200px;
+    width: 100%;
     background-color: #f1f1f1;
-    float: right;
     li{
+      float: right;
+      padding: 2em;
       display:inline-flex;
       text-align:center;
+      color:#000;
+      a{
+      text-decoration: none;
+        &:hover{background-color: #555;}
+         strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+  }
+        first-child &:hover {
+//     color: rgb(59, 151, 46);
+// }
+      }
     }
 }
 }
 
-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    float: right;
-}
+
 
 // header li a {
 //     display: block;
