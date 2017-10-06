@@ -109,10 +109,22 @@ img {
 }
 
 header {
-  width:100px;
+  width:100%;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    width: 200px;
+    background-color: #f1f1f1;
+    float: right;
+    li{
+      display:inline-flex;
+      text-align:center;
+    }
+}
 }
 
 header ul {
@@ -124,27 +136,27 @@ header ul {
     float: right;
 }
 
-header li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align:center;
-}
+// header li a {
+//     display: block;
+//     color: #000;
+//     padding: 8px 16px;
+//     text-decoration: none;
+//     text-align:center;
+// }
 
-/* Change the link color on hover */
-header li a:hover {
-    background-color: #555;
-}
-header li:first-child a:hover {
-    color: rgb(59, 151, 46);
-}
-header li:nth-child(2) a:hover {
-    color: rgb(201, 60, 56);
-}
-header li:nth-child(3) a:hover {
-    color: rgb(148, 91, 176);
-}
+// /* Change the link color on hover */
+// header li a:hover {
+//     background-color: #555;
+// }
+// header li:first-child a:hover {
+//     color: rgb(59, 151, 46);
+// }
+// header li:nth-child(2) a:hover {
+//     color: rgb(201, 60, 56);
+// }
+// header li:nth-child(3) a:hover {
+//     color: rgb(148, 91, 176);
+// }
 
 strong {
   color:#222;
