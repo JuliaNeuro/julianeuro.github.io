@@ -113,36 +113,28 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  ul {
+    ul {
     list-style-type: none;
     margin: 0;
     padding: 1em;
     width: 100%;
     background-color: #f1f1f1;
-    li{
+      li{
       float: right;
       padding: 2em;
       display:inline-flex;
       text-align:center;
       color:#000;
-      a{
-      text-decoration: none;
-        &:hover{background-color: #555;}
-         strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-  }
-        first-child &:hover {
-//     color: rgb(59, 151, 46);
-// }
+        a{
+        text-decoration: none;
+         &:hover{background-color: #555;}
+         strong {font-size:14px;   
+           color:#222;}
+       
       }
     }
 }
 }
-
-
-
 // header li a {
 //     display: block;
 //     color: #000;
@@ -151,30 +143,30 @@ header {
 //     text-align:center;
 // }
 
-// /* Change the link color on hover */
-// header li a:hover {
-//     background-color: #555;
-// }
-// header li:first-child a:hover {
-//     color: rgb(59, 151, 46);
-// }
-// header li:nth-child(2) a:hover {
-//     color: rgb(201, 60, 56);
-// }
-// header li:nth-child(3) a:hover {
-//     color: rgb(148, 91, 176);
-// }
-
-strong {
-  color:#222;
-  font-weight:700;
+/* Change the link color on hover */
+header li a:hover {
+    background-color: #555;
+}
+header li:first-child a:hover {
+    color: rgb(59, 151, 46);
+}
+header li:nth-child(2) a:hover {
+    color: rgb(201, 60, 56);
+}
+header li:nth-child(3) a:hover {
+    color: rgb(148, 91, 176);
 }
 
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
+// strong {
+//   color:#222;
+//   font-weight:700;
+// }
+
+// header ul a strong {
+//   font-size:14px;
+//   display:block;
+//   color:#222;
+// }
 
 section {
   width:500px;
