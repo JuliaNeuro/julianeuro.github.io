@@ -143,16 +143,16 @@ header {
 
 
 /* Change the link color on hover */
-header li a:hover {
+header li:hover {
     background-color: #555;
 }
-header li:first-child a:hover {
+header li:first-child:hover {
     color: rgb(59, 151, 46);
 }
-header li:nth-child(2) a:hover {
+header li:nth-child(2):hover {
     color: rgb(201, 60, 56);
 }
-header li:nth-child(3) a:hover {
+header li:nth-child(3):hover {
     color: rgb(148, 91, 176);
 }
 
