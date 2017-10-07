@@ -238,7 +238,9 @@ footer {
     padding:15px;
   }
 .logo {
-  width: 100%;
+  
+  width: 100% !important;
+  
   ul{
     li{
       float: left;
