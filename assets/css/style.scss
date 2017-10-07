@@ -122,13 +122,14 @@ header {
       li {
       float: right;
       margin-top: -2.5em;
-      padding: 2em;
+      padding: 1.8em;
       display:inline-flex;
       text-align:center;
       color:#000;
          &:hover{background-color: #555;
-          font-size:14px;   
-           color:#222;}
+          font-size:14px; 
+          font-weight: bold;
+        }
         a{
         text-decoration: none;
 //          strong {
