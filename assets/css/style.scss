@@ -4,6 +4,7 @@
 @import "fonts";
 @import "rouge-github";
 
+
 body {
   background-color: #fff;
   padding:0;
@@ -110,12 +111,16 @@ img {
 
 header {
   #navbar {
+   
   margin: -1em 1em -1em -1em;
   padding: 1em 0;
   width:101%;
   float:left;
   position:fixed;
   background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 7px 14px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 14px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 14px -5px rgba(0,0,0,0.75);
   -webkit-font-smoothing:subpixel-antialiased;
     .logo{
       width: 50%;
