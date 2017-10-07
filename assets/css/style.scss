@@ -243,14 +243,14 @@ footer {
   
   ul{
     li{
-      float: left;
+      float: left !important;
       h1{
-        margin: 1.7em 0 0 1em;
-        font-size:1.3em;
+        margin: 1.7em 0 0 1em !important;
+        font-size:1.3em !important;
       }
       img{
-        margin-top:.2em;
-        max-width:85%;
+        margin-top:.2em !important;
+        max-width:85% !important;
         }
       }
     }
@@ -258,12 +258,12 @@ footer {
   
   .linkbar{ 
     ul{
-     list-style-type: none;
-    float: initial; 
+     list-style-type: none !important;
+    float: initial !important; 
     
       li{
-        padding: 0 .1em;
-    margin: -1em;
+        padding: 0 .1em !important;
+    margin: -1em !important;
     display: inline-flex;
     text-align: center;
     color: #000;
