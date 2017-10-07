@@ -125,9 +125,9 @@ header {
       display:inline-flex;
       text-align:center;
       color:#000;
+         &:hover{background-color: #555;}
         a{
         text-decoration: none;
-         &:hover{background-color: #555;}
          strong {font-size:14px;   
            color:#222;}
        
