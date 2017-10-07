@@ -4,9 +4,10 @@
 @import "fonts";
 @import "rouge-github";
 
+
 body {
   background-color: #fff;
-  padding:50px;
+  padding:0;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -109,58 +110,81 @@ img {
 }
 
 header {
-  width:100px;
+  #navbar {
+   
+  margin: -1em 1em -1em -1em;
+  padding: 1em 0;
+  width:101%;
   float:left;
   position:fixed;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 7px 14px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 14px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 14px -5px rgba(0,0,0,0.75);
   -webkit-font-smoothing:subpixel-antialiased;
+    .logo{
+      width: 50%;
+      ul {
+        a{
+        text-decoration: none;
+        }
+        list-style-type: none;
+        li {
+          h1{
+           margin-left:-2em; 
+          }
+          float: left;
+          img{
+            margin-top:-1.5em;
+            max-width:55%;
+          }
+        }
+      }
+    }
+    
+    .linkbar{
+      margin-right: 1em;
+      float: right;
+     ul {
+      list-style-type: none;
+        float: right;
+      width: 100%;
+       li{
+         padding: 0 2em;
+         display:inline-flex;
+          text-align:center;
+          color:#000;
+          &:hover{
+          font-weight: bold;
+        }
+         a{
+        text-decoration: none;
+        }
+       }
+      }
+    }
+  }
 }
+    
 
-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    float: right;
-}
-
-header li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align:center;
-}
 
 /* Change the link color on hover */
-header li a:hover {
-    background-color: #555;
-}
-header li:first-child a:hover {
+// header #navbar .linkbar li a:hover {
+// //     background-color: #555;
+// }
+header #navbar .linkbar li:first-child a:hover {
     color: rgb(59, 151, 46);
 }
-header li:nth-child(2) a:hover {
+header #navbar .linkbar li:nth-child(2) a:hover {
     color: rgb(201, 60, 56);
 }
-header li:nth-child(3) a:hover {
+header #navbar .linkbar li:nth-child(3) a:hover {
     color: rgb(148, 91, 176);
 }
 
-strong {
-  color:#222;
-  font-weight:700;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
-
 section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
+  padding: 9em 0 0 4em;
+  width:100%;
 }
 
 small {
@@ -198,7 +222,7 @@ footer {
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
+    padding:9em .2em 4em .2em;
     margin:0 0 20px;
   }
 
@@ -211,14 +235,59 @@ footer {
   body {
     padding:15px;
   }
-
-  header ul {
-    width:99%;
+#navbar {
+  margin: -2em 2em -1em -2em !important;
+    padding: 1em 0 !important;
+    width: 104% !important;
+  }
+  
+.logo {
+  
+  width: 100% !important;
+  
+  ul{
+     width: 100% !important;
+    li{
+      float: left !important;
+      h1{
+        margin: 1.7em 0 0 1em !important;
+        font-size:1.3em !important;
+      }
+      img{
+        margin-top:.2em !important;
+        max-width:85% !important;
+        }
+      }
+    }
+  }
+  
+  .linkbar{ 
+    margin: 1em 0 0 1em !important;
+    width:100% !important;
+    ul{
+     list-style-type: none !important;
+    float: initial !important; 
+    
+      li{
+        padding: 0 .1em !important;
+    margin: -1em !important;
+    display: inline-flex;
+    text-align: center;
+    color: #000;
+      }
+    }
+  }
+  
+  section{
+       padding: 12em .2em 4em .2em !important; 
   }
 
   header li, header ul li + li + li {
     width:33%;
   }
+  
+  
+  
 }
 
 @media print {
