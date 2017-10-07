@@ -110,8 +110,9 @@ img {
 
 header {
   #navbar {
+  margin: -1em 1em -1em -1em;
   padding: 1em 0;
-  width:100%;
+  width:101%;
   float:left;
   position:fixed;
   background-color: #f1f1f1;
@@ -137,8 +138,7 @@ header {
     }
     
     .linkbar{
-      margin-right: 4em;
-      width: 50%;
+      margin-right: 1em;
       float: right;
      ul {
       list-style-type: none;
@@ -149,8 +149,9 @@ header {
          display:inline-flex;
           text-align:center;
           color:#000;
-          &:hover{background-color: #555;
-          font-size:14px; 
+          &:hover{
+           border-bottom: 5px solid #555;
+//            background-color: #555;
           font-weight: bold;
         }
          a{
