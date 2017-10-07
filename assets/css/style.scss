@@ -109,50 +109,64 @@ img {
 }
 
 header {
+  #navbar {
+  padding: 2.5em 0;
   width:100%;
   float:left;
   position:fixed;
+  background-color: #f1f1f1;
   -webkit-font-smoothing:subpixel-antialiased;
-    ul {
-    list-style-type: none;
+    .logo{
+      width: 50%;
+      ul {
+        a{
+        text-decoration: none;
+        }
+        list-style-type: none;
+        li {
+          float: left;
+          img{
+            max-width:35%;
+          }
+        }
+      }
+    }
     
-    padding: 2em 0;
-    width: 100%;
-    background-color: #f1f1f1;
-      li {
-      float: right;
-      margin-top: -2.5em;
-      padding: 1.8em;
-      display:inline-flex;
-      text-align:center;
-      color:#000;
-         &:hover{background-color: #555;
+    .linkbar{
+     ul {
+      list-style-type: none;
+      width: 100%;
+       li{
+         float: right;
+         display:inline-flex;
+          text-align:center;
+          color:#000;
+          &:hover{background-color: #555;
           font-size:14px; 
           font-weight: bold;
         }
-        a{
+         a{
         text-decoration: none;
-//          strong {
-//            font-size:14px;   
-//            color:#222;}
-       
+        }
+       }
       }
     }
   }
 }
+    
 
 
 /* Change the link color on hover */
-header li a:hover {
+header #navbar .linkbar li a:hover {
     background-color: #555;
 }
-header li:first-child a:hover {
+header #navbar .linkbar li:first-child a:hover {
     color: rgb(59, 151, 46);
 }
-header li:nth-child(2) a:hover {
+header #navbar .linkbar li:nth-child(2) a:hover {
     color: rgb(201, 60, 56);
 }
-header li:nth-child(3) a:hover {
+header #navbar .linkbar li:nth-child(3) a:hover {
     color: rgb(148, 91, 176);
 }
 
