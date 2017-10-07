@@ -237,10 +237,38 @@ footer {
   body {
     padding:15px;
   }
-
-  header ul {
-    width:99%;
+.logo {
+  width: 100%;
+  ul{
+    li{
+      float: left;
+      h1{
+        margin: 1.7em 0 0 1em;
+        font-size:1.3em;
+      }
+      img{
+        margin-top:.2em;
+        max-width:85%;
+        }
+      }
+    }
   }
+  
+  .linkbar{ 
+    ul{
+     list-style-type: none;
+    float: initial; 
+    
+      li{
+        padding: 0 .1em;
+    margin: -1em;
+    display: inline-flex;
+    text-align: center;
+    color: #000;
+      }
+    }
+  }
+  
 
   header li, header ul li + li + li {
     width:33%;
