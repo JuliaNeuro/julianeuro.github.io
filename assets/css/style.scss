@@ -145,7 +145,7 @@ header {
         float: right;
       width: 100%;
        li{
-         padding: 2em;
+         padding: 0 2em;
          display:inline-flex;
           text-align:center;
           color:#000;
@@ -166,9 +166,9 @@ header {
 
 
 /* Change the link color on hover */
-header #navbar .linkbar li a:hover {
-    background-color: #555;
-}
+// header #navbar .linkbar li a:hover {
+// //     background-color: #555;
+// }
 header #navbar .linkbar li:first-child a:hover {
     color: rgb(59, 151, 46);
 }
