@@ -228,7 +228,7 @@ footer {
 
   header a small {
     display:inline;
-  } 
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -296,4 +296,20 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+// Section for Media Queries
+
+
+// feel free to add this to a seperate file for more modularity and cleanliness.
+// Note: These breakpoints only cover portrait layouts. If you want to cover all end users, you can consider specific breakpoints for Iphone and Samsung models.
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
 }
