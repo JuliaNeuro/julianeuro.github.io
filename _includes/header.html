@@ -1,29 +1,30 @@
 <header>
 <div id="navbar">
-    
+
     <div class="logo">
     <ul>
         <li>
-    <a href="{{ '/' | prepend:site.baseurl }}">
-        <img src="assets/julianeurologo.png">
-    </a>
+            <a href="{{ '/' | prepend:site.baseurl }}">
+                <img src="assets/julianeurologo.png">
+            </a>
         </li>
       <li>
-          <h1>{{ site.title }}</h1>
-     </li>
-        
+          <a href="{{ '/' | prepend:site.baseurl }}">
+              <h1>{{ site.title }}</h1>
+          </a>
+    </li>    
     </ul>
       </div>
-    
-    <div class="linkbar"> 
+
+    <div class="linkbar">
     <ul>
-    
+
         <li><a href="{{ '/packages' | prepend: site.baseurl }}">Packages</a></li>
         <li><a href="{{ '/papers' | prepend: site.baseurl }}">Papers</a></li>
         <li><a href="{{ '/people' | prepend: site.baseurl }}">People</a></li>
     </ul>
 
-    </div> 
+    </div>
     </div>
     <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 </header>
