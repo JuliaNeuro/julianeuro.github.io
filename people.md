@@ -7,7 +7,7 @@ layout: default
 | Handle | Sub-field |
 | --- | --- |
 | [simonster](https://github.com/simonster) | EPhys |
-| [paulmthompson](https://github.com/paulmthompson) | Ephys |
+| [paulmthompson](https://github.com/paulmthompson) | EPhys |
 | [ahwillia](https://github.com/ahwillia) | Computational/ML |
 | [timholy](https://github.com/timholy) | EPhys / Behaviour | 
 | [codles](https://github.com/codles) | Neurostimulation |
