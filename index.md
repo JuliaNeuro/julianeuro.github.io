@@ -10,6 +10,3 @@ Who's doing it?
 
 ## [Papers](./papers)
 Published results.
-
-## [Tutorials](./tutorials)
-Tutorials.
