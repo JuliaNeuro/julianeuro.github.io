@@ -17,3 +17,4 @@ layout: default
 | [vitskov](https://github.com/vitskov) | Computational |
 | [sje30](https://github.com/sje30) | Computational |
 | [RainerEngelken](https://github.com/RainerEngelken) | Computational |
+| [galenlynch](https://github.com/galenlynch) | Computational |
