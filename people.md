@@ -18,3 +18,4 @@ layout: default
 | [sje30](https://github.com/sje30) | Computational |
 | [RainerEngelken](https://github.com/RainerEngelken) | Computational |
 | [galenlynch](https://github.com/galenlynch) | Computational |
+| [DominiqueMakowski](https://github.com/DominiqueMakowski) | Cognition |
