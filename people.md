@@ -11,7 +11,7 @@ layout: default
 | [ahwillia](https://github.com/ahwillia) | Computational/ML |
 | [timholy](https://github.com/timholy) | EPhys / Behaviour | 
 | [codles](https://github.com/codles) | Neurostimulation |
-| [galenlynch](https://github.com/galenlynch) | EPhys / Behaviour |
+| [galenlynch](https://www.galenlynch.com/) | EPhys / Behaviour |
 | [jmxpearson](https://github.com/jmxpearson) | Computational/ML |
 | [seung-lab](https://github.com/seung-lab) |  |
 | [vitskov](https://github.com/vitskov) | Computational |
