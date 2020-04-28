@@ -19,3 +19,4 @@ layout: default
 | [RainerEngelken](https://github.com/RainerEngelken) | Computational |
 | [galenlynch](https://github.com/galenlynch) | Computational |
 | [DominiqueMakowski](https://github.com/DominiqueMakowski) | Cognition |
+| [lpjiang97](https://github.com/lpjiang97) | Computational/ML |
